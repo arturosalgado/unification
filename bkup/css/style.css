@@ -1,0 +1,195 @@
+  
+  #container{
+      width:900px;
+      margin-left: auto;
+      margin-right: auto;
+	  min-height:400px;
+	  margin-bottom:20px;
+	  background-image:url(../images/fondo.jpg);
+
+  }
+  
+  h1{
+	  color:#808080;
+	  font-size:30px;
+	  margin-top:25px;
+	  margin-bottom:10px;
+	  font-weight:bold;
+  }
+  
+  h3{
+	  color:#005067;
+	  margin:0 5px 5px 0;
+  }
+  
+  table{
+	  border:#005067 1px solid;
+  }
+  
+  th{
+	  background-color:#005067;
+	  color:#E0E0E0;
+	  font-size:16px;
+	  font-weight:bold;
+  }
+  
+  td{
+	  border:1px solid #005067;
+	  color:#005067;
+	  font-weight:bold;
+  }
+  
+  #powered{
+	  float:left;
+	  margin-top:20px;
+	  margin-left:10px;
+  }
+  
+  #copyright{
+	  float:right;
+	  margin-right:10px;
+	  margin-top:20px;
+  }
+  
+  fieldset{
+	margin-top:20px;
+	border:#666 2px solid;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;	
+  }
+  
+  #index_space{
+	  height:20px;
+  }
+  
+  #icons{
+	  margin-top: 70px;
+	  margin-bottom:70px;
+  }
+  
+  #icons a{
+	  magin-right: 20px;
+	  margin-left: 20px;  
+	  background-image:url(../images/background.jpg);
+  }
+  
+  legend{
+	  color: #005067;
+	  font-size:16px;
+	  font-weight: bold;
+ }
+  
+  input[type='submit']{
+	  border:none;
+	  background-color: #005067;
+	  color:#FFF;
+	  border:#999 2px solid; 
+	  margin-left: 380px;
+	  margin-top:10px;
+	  height:30px;
+	  width:80px;
+  }
+  
+  form label{
+	  width: 320px;
+	  text-align:right;
+	  float:left;
+	  color:#005067;
+	  font-weight:bold;
+	  margin-top: 20px;	 
+  }
+  
+  form p{
+	  margin-bottom:10px;
+  }
+  
+  a, a:visited{
+	  color:#333;
+	  font-size:14px;
+	  text-decoration:underline;
+  }
+  
+  /*Yazmin starts 09 Oct 2012*/
+  #header_home{
+      background-image:url(../images/header_bg.jpg);
+	  width:900px;
+	  height:360px;
+	  margin-left:auto;
+	  margin-right:auto;
+  }
+  
+  #footer_home{
+	  width:900px;
+	  height:60px;
+	  color: #005067;
+	  margin-left: auto;
+      margin-right: auto;
+	  font-weight:bold;
+	  margin-top:20px;
+  }
+  
+  #header_general{
+      background-image:url(../images/header_general.jpg);
+	  width:900px;
+	  height:120px;
+	  margin-left:auto;
+	  margin-right:auto;
+  }
+  
+  #footer_general{
+	  width:900px;
+	  height:60px;
+	  margin-left: auto;
+      margin-right: auto;
+	  font-weight:bold;
+	  color: #005067;
+	  background-color:#D9E3E0;
+	  margin-top:20px;
+  }
+  
+  #fieldset_home{
+	background-image:url(../images/background.jpg);
+	height:155px;
+	margin-bottom:20px;	
+  }
+  
+  body {
+	  font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  input[type='text']{
+	  margin-top: 20px;
+  }
+  
+  input[type='password']{
+	  margin-top: 20px;
+  }
+  
+  select{
+	  margin-top: 20px;
+  }
+  
+  input[type='file']{
+	  margin-top: 20px;
+  }
+  
+  #container.home{
+	   background-image:none;
+  }
+  /*Yazmin ends*/
+
+
+  span.clickable{
+      border: 1px #000 solid;
+      margin: 3px;
+      padding: 7px;
+      background-color: #134D5C;
+      color: #FFF;
+      cursor: pointer;
+  }
+
+  #buttons{
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }

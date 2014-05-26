@@ -1,0 +1,167 @@
+
+		/*
+		$c1fh = isset($data['c1fh'])&&$data['c1fh']!=""?$data['c1fh']:0;
+		$c1fm = isset($data['c1fm'])&&$data['c1fm']!=""?$data['c1fm']:0;
+		$c1eh = isset($data['c1eh'])&&$data['c1eh']!=""?$data['c1eh']:0;
+		$c1em = isset($data['c1em'])&&$data['c1em']!=""?$data['c1em']:0;
+		$c1ph = isset($data['c1ph'])&&$data['c1ph']!=""?$data['c1ph']:0;
+		$c1pl = isset($data['c1pl'])&&$data['c1pl']!=""?$data['c1pl']:0;
+		$c1pi = isset($data['c1pi'])&&$data['c1pi']!=""?$data['c1pi']:0;
+		
+		$c2fh = isset($data['c2fh'])&&$data['c2fh']!=""?$data['c2fh']:0;
+		$c2fm = isset($data['c2fm'])&&$data['c2fm']!=""?$data['c2fm']:0;
+		$c2eh = isset($data['c2eh'])&&$data['c2eh']!=""?$data['c2eh']:0;
+		$c2em = isset($data['c2em'])&&$data['c2em']!=""?$data['c2em']:0;
+		$c2ph = isset($data['c2ph'])&&$data['c2ph']!=""?$data['c2ph']:0;
+		$c2pl = isset($data['c2pl'])&&$data['c2pl']!=""?$data['c2pl']:0;
+		$c2pi = isset($data['c2pi'])&&$data['c2pi']!=""?$data['c2pi']:0;
+		
+		$c3fh = isset($data['c3fh'])&&$data['c3fh']!=""?$data['c3fh']:0;
+		$c3fm = isset($data['c3fm'])&&$data['c3fm']!=""?$data['c3fm']:0;
+		$c3eh = isset($data['c3eh'])&&$data['c3eh']!=""?$data['c3eh']:0;
+		$c3em = isset($data['c3em'])&&$data['c3em']!=""?$data['c3em']:0;
+		$c3ph = isset($data['c3ph'])&&$data['c3ph']!=""?$data['c3ph']:0;
+		$c3pl = isset($data['c3pl'])&&$data['c3pl']!=""?$data['c3pl']:0;
+		$c3pi = isset($data['c3pi'])&&$data['c3pi']!=""?$data['c3pi']:0;
+		
+		$c4fh = isset($data['c4fh'])&&$data['c4fh']!=""?$data['c4fh']:0;
+		$c4fm = isset($data['c4fm'])&&$data['c4fm']!=""?$data['c4fm']:0;
+		$c4eh = isset($data['c4eh'])&&$data['c4eh']!=""?$data['c4eh']:0;
+		$c4em = isset($data['c4em'])&&$data['c4em']!=""?$data['c4em']:0;
+		$c4ph = isset($data['c4ph'])&&$data['c4ph']!=""?$data['c4ph']:0;
+		$c4pl = isset($data['c4pl'])&&$data['c4pl']!=""?$data['c4pl']:0;
+		$c4pi = isset($data['c4pi'])&&$data['c4pi']!=""?$data['c4pi']:0;
+		
+		$c5fh = isset($data['c5fh'])&&$data['c5fh']!=""?$data['c5fh']:0;
+		$c5fm = isset($data['c5fm'])&&$data['c5fm']!=""?$data['c5fm']:0;
+		$c5eh = isset($data['c5eh'])&&$data['c5eh']!=""?$data['c5eh']:0;
+		$c5em = isset($data['c5em'])&&$data['c5em']!=""?$data['c5em']:0;
+		$c5ph = isset($data['c5ph'])&&$data['c5ph']!=""?$data['c5ph']:0;
+		$c5pl = isset($data['c5pl'])&&$data['c5pl']!=""?$data['c5pl']:0;
+		$c5pi = isset($data['c5pi'])&&$data['c5pi']!=""?$data['c5pi']:0;
+		
+		$c6fh = isset($data['c6fh'])&&$data['c6fh']!=""?$data['c6fh']:0;
+		$c6fm = isset($data['c6fm'])&&$data['c6fm']!=""?$data['c6fm']:0;
+		$c6eh = isset($data['c6eh'])&&$data['c6eh']!=""?$data['c6eh']:0;
+		$c6em = isset($data['c6em'])&&$data['c6em']!=""?$data['c6em']:0;
+		$c6ph = isset($data['c6ph'])&&$data['c6ph']!=""?$data['c6ph']:0;
+		$c6pl = isset($data['c6pl'])&&$data['c6pl']!=""?$data['c6pl']:0;
+		$c6pi = isset($data['c6pi'])&&$data['c6pi']!=""?$data['c6pi']:0;
+		
+		$c7fh = isset($data['c7fh'])&&$data['c7fh']!=""?$data['c7fh']:0;
+		$c7fm = isset($data['c7fm'])&&$data['c7fm']!=""?$data['c7fm']:0;
+		$c7eh = isset($data['c7eh'])&&$data['c7eh']!=""?$data['c7eh']:0;
+		$c7em = isset($data['c7em'])&&$data['c7em']!=""?$data['c7em']:0;
+		$c7ph = isset($data['c7ph'])&&$data['c7ph']!=""?$data['c7ph']:0;
+		$c7pl = isset($data['c7pl'])&&$data['c7pl']!=""?$data['c7pl']:0;
+		$c7pi = isset($data['c7pi'])&&$data['c7pi']!=""?$data['c7pi']:0;
+		
+		$c8fh = isset($data['c8fh'])&&$data['c8fh']!=""?$data['c8fh']:0;
+		$c8fm = isset($data['c8fm'])&&$data['c8fm']!=""?$data['c8fm']:0;
+		$c8eh = isset($data['c8eh'])&&$data['c8eh']!=""?$data['c8eh']:0;
+		$c8em = isset($data['c8em'])&&$data['c8em']!=""?$data['c8em']:0;
+		$c8ph = isset($data['c8ph'])&&$data['c8ph']!=""?$data['c8ph']:0;
+		$c8pl = isset($data['c8pl'])&&$data['c8pl']!=""?$data['c8pl']:0;
+		$c8pi = isset($data['c8pi'])&&$data['c8pi']!=""?$data['c8pi']:0;
+		
+		$c9fh = isset($data['c9fh'])&&$data['c9fh']!=""?$data['c9fh']:0;
+		$c9fm = isset($data['c9fm'])&&$data['c9fm']!=""?$data['c9fm']:0;
+		$c9eh = isset($data['c9eh'])&&$data['c9eh']!=""?$data['c9eh']:0;
+		$c9em = isset($data['c9em'])&&$data['c9em']!=""?$data['c9em']:0;
+		$c9ph = isset($data['c9ph'])&&$data['c9ph']!=""?$data['c9ph']:0;
+		$c9pl = isset($data['c9pl'])&&$data['c9pl']!=""?$data['c9pl']:0;
+		$c9pi = isset($data['c9pi'])&&$data['c9pi']!=""?$data['c9pi']:0;
+		
+		$c10fh = isset($data['c10fh'])&&$data['c10fh']!=""?$data['c10fh']:0;
+		$c10fm = isset($data['c10fm'])&&$data['c10fm']!=""?$data['c10fm']:0;
+		$c10eh = isset($data['c10eh'])&&$data['c10eh']!=""?$data['c10eh']:0;
+		$c10em = isset($data['c10em'])&&$data['c10em']!=""?$data['c10em']:0;
+		$c10ph = isset($data['c10ph'])&&$data['c10ph']!=""?$data['c10ph']:0;
+		$c10pl = isset($data['c10pl'])&&$data['c10pl']!=""?$data['c10pl']:0;
+		$c10pi = isset($data['c10pi'])&&$data['c10pi']!=""?$data['c10pi']:0;
+		
+		$c11fh = isset($data['c11fh'])&&$data['c11fh']!=""?$data['c11fh']:0;
+		$c11fm = isset($data['c11fm'])&&$data['c11fm']!=""?$data['c11fm']:0;
+		$c11eh = isset($data['c11fh'])&&$data['c11eh']!=""?$data['c11eh']:0;
+		$c11em = isset($data['c11fh'])&&$data['c11em']!=""?$data['c11em']:0;
+		$c11ph = isset($data['c11fh'])&&$data['c11ph']!=""?$data['c11ph']:0;
+		$c11pl = isset($data['c11fh'])&&$data['c11pl']!=""?$data['c11pl']:0;
+		$c11pi = isset($data['c11fh'])&&$data['c11pi']!=""?$data['c11pi']:0;
+		
+		$c12fh = isset($data['c12fh'])&&$data['c12fh']!=""?$data['c12fh']:0;
+		$c12fm = isset($data['c12fh'])&&$data['c12fm']!=""?$data['c12fm']:0;
+		$c12eh = isset($data['c12fh'])&&$data['c12eh']!=""?$data['c12eh']:0;
+		$c12em = isset($data['c12fh'])&&$data['c12em']!=""?$data['c12em']:0;
+		$c12ph = isset($data['c12fh'])&&$data['c12ph']!=""?$data['c12ph']:0;
+		$c12pl = isset($data['c12fh'])&&$data['c12pl']!=""?$data['c12pl']:0;
+		$c12pi = isset($data['c12fh'])&&$data['c12pi']!=""?$data['c12pi']:0;
+		
+		$c13fh = isset($data['c13fh'])&&$data['c13fh']!=""?$data['c13fh']:0;
+		$c13fm = isset($data['c13fh'])&&$data['c13fm']!=""?$data['c13fm']:0;
+		$c13eh = isset($data['c13fh'])&&$data['c13eh']!=""?$data['c13eh']:0;
+		$c13em = isset($data['c13fh'])&&$data['c13em']!=""?$data['c13em']:0;
+		$c13ph = isset($data['c13fh'])&&$data['c13ph']!=""?$data['c13ph']:0;
+		$c13pl = isset($data['c13fh'])&&$data['c13pl']!=""?$data['c13pl']:0;
+		$c13pi = isset($data['c13fh'])&&$data['c13pi']!=""?$data['c13pi']:0;
+		
+		$c14fh = isset($data['c14fh'])&&$data['c14fh']!=""?$data['c14fh']:0;
+		$c14fm = isset($data['c14fh'])&&$data['c14fm']!=""?$data['c14fm']:0;
+		$c14eh = isset($data['c14fh'])&&$data['c14eh']!=""?$data['c14eh']:0;
+		$c14em = isset($data['c14fh'])&&$data['c14em']!=""?$data['c14em']:0;
+		$c14ph = isset($data['c14fh'])&&$data['c14ph']!=""?$data['c14ph']:0;
+		$c14pl = isset($data['c14fh'])&&$data['c14pl']!=""?$data['c14pl']:0;
+		$c14pi = isset($data['c14fh'])&&$data['c14pi']!=""?$data['c14pi']:0;
+		
+		$c15fh = isset($data['c15fh'])&&$data['c15fh']!=""?$data['c15fh']:0;
+		$c15fm = isset($data['c15fh'])&&$data['c15fm']!=""?$data['c15fm']:0;
+		$c15eh = isset($data['c15fh'])&&$data['c15eh']!=""?$data['c15eh']:0;
+		$c15em = isset($data['c15fh'])&&$data['c15em']!=""?$data['c15em']:0;
+		$c15ph = isset($data['c15fh'])&&$data['c15ph']!=""?$data['c15ph']:0;
+		$c15pl = isset($data['c15fh'])&&$data['c15pl']!=""?$data['c15pl']:0;
+		$c15pi = isset($data['c15fh'])&&$data['c15pi']!=""?$data['c15pi']:0;
+		
+		$c16fh = isset($data['c16fh'])&&$data['c16fh']!=""?$data['c16fh']:0;
+		$c16fm = isset($data['c16fh'])&&$data['c16fm']!=""?$data['c16fm']:0;
+		$c16eh = isset($data['c16fh'])&&$data['c16eh']!=""?$data['c16eh']:0;
+		$c16em = isset($data['c16fh'])&&$data['c16em']!=""?$data['c16em']:0;
+		$c16ph = isset($data['c16fh'])&&$data['c16ph']!=""?$data['c16ph']:0;
+		$c16pl = isset($data['c16fh'])&&$data['c16pl']!=""?$data['c16pl']:0;
+		$c16pi = isset($data['c16fh'])&&$data['c16pi']!=""?$data['c16pi']:0;
+		
+		$c17fh = isset($data['c17fh'])&&$data['c17fh']!=""?$data['c17fh']:0;
+		$c17fm = isset($data['c17fh'])&&$data['c17fm']!=""?$data['c17fm']:0;
+		$c17eh = isset($data['c17fh'])&&$data['c17eh']!=""?$data['c17eh']:0;
+		$c17em = isset($data['c17fh'])&&$data['c17em']!=""?$data['c17em']:0;
+		$c17ph = isset($data['c17fh'])&&$data['c17ph']!=""?$data['c17ph']:0;
+		$c17pl = isset($data['c17fh'])&&$data['c17pl']!=""?$data['c17pl']:0;
+		$c17pi = isset($data['c17fh'])&&$data['c17pi']!=""?$data['c17pi']:0;
+		
+		$c18fh = isset($data['c18fh'])&&$data['c18fh']!=""?$data['c18fh']:0;
+		$c18fm = isset($data['c18fh'])&&$data['c18fm']!=""?$data['c18fm']:0;
+		$c18eh = isset($data['c18fh'])&&$data['c18eh']!=""?$data['c18eh']:0;
+		$c18em = isset($data['c18fh'])&&$data['c18em']!=""?$data['c18em']:0;
+		$c18ph = isset($data['c18fh'])&&$data['c18ph']!=""?$data['c18ph']:0;
+		$c18pl = isset($data['c18fh'])&&$data['c18pl']!=""?$data['c18pl']:0;
+		$c18pi = isset($data['c18fh'])&&$data['c18pi']!=""?$data['c18pi']:0;
+		
+		$c19fh = isset($data['c19fh'])&&$data['c19fh']!=""?$data['c19fh']:0;
+		$c19fm = isset($data['c19fh'])&&$data['c19fm']!=""?$data['c19fm']:0;
+		$c19eh = isset($data['c19fh'])&&$data['c19eh']!=""?$data['c19eh']:0;
+		$c19em = isset($data['c19fh'])&&$data['c19em']!=""?$data['c19em']:0;
+		$c19ph = isset($data['c19fh'])&&$data['c19ph']!=""?$data['c19ph']:0;
+		$c19pl = isset($data['c19fh'])&&$data['c19pl']!=""?$data['c19pl']:0;
+		$c19pi = isset($data['c19fh'])&&$data['c19pi']!=""?$data['c19pi']:0;
+		
+		$c20fh = isset($data['c20fh'])&&$data['c20fh']!=""?$data['c20fh']:0;
+		$c20fm = isset($data['c20fh'])&&$data['c20fm']!=""?$data['c20fm']:0;
+		$c20eh = isset($data['c20fh'])&&$data['c20eh']!=""?$data['c20eh']:0;
+		$c20em = isset($data['c20fh'])&&$data['c20em']!=""?$data['c20em']:0;
+		$c20ph = isset($data['c20fh'])&&$data['c20ph']!=""?$data['c20ph']:0;
+		$c20pl = isset($data['c20fh'])&&$data['c20pl']!=""?$data['c20pl']:0;
+		$c20pi = isset($data['c20fh'])&&$data['c20pi']!=""?$data['c20pi']:0;
+		//guardando la captura
+		
+		echo var_dump($tmh);
+		$fecha = date("Y-m-d");
+		$this->db->query("INSERT INTO captura (idlinea, fecha, responsable1, responsable2, responsable3, pasodeformado, ok, nook, tmh, tmp, tmm, sh, sp, sm, horas_laboradas, idproduccion) VALUES($idlinea, '$fecha', '$responsable1', '$responsable2', '$responsable3', $paso, $ok, $nook, $tmh, $tmp, $tmm, $sh, $sp, $sm, $horas_laboradas, $idcaptura)");
+	*/	
